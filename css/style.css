@@ -1,0 +1,140 @@
+/*For Desktop View */
+*{
+	box-sizing: border-box;
+}
+
+@media (min-width: 992px){
+	body{
+	margin-left: 140px;
+}
+	div{
+	float: left;
+	background-color: grey;
+	width: 28%;
+	margin-right: 35px;
+	padding-top: 0px;
+
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+p.h1,.h2,.h3{
+	margin-top: 0px;
+	border:2px solid black;
+	padding: 3px;
+	font-size: 20px;
+	float: right;
+	width: 120px;
+	margin-bottom: 0px;
+}
+div p{
+	clear: both;
+	padding: 15px;
+	text-align: justify;
+}
+p.h1{
+	background-color: pink;
+
+}
+p.h2{
+	background-color:#520b0b;
+	color: white;
+}
+p.h3{
+	background-color: #a19758;
+
+}
+}
+
+/* For Tablet View */
+@media (min-width: 768px) and (max-width: 991px){
+body{
+	margin-left: 50px;
+}
+.div1,.div2{
+	float: left;
+	background-color: grey;
+	width: 45%;
+	margin-right: 35px;
+	padding-top: 0px;
+	margin-bottom: 30px;
+}
+.div3{
+	clear: both;
+	width: 95%;
+	background-color: grey;
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+p.h1,.h2,.h3{
+	margin-top: 0px;
+	border:2px solid black;
+	padding: 3px;
+	font-size: 20px;
+	float: right;
+	width: 120px;
+	margin-bottom: 0px;
+}
+div p{
+	clear: both;
+	padding: 15px;
+	text-align: justify;
+}
+p.h1{
+	background-color: pink;
+
+}
+p.h2{
+	background-color:#520b0b;
+	color: white;
+}
+p.h3{
+	background-color: #a19758;
+
+}
+}
+
+/* For Mobile View */
+
+@media (min-width: 0px) and (max-width: 767px){
+body{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+	div{
+	background-color: grey;
+	width: 100%;}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+p.h1,.h2,.h3{
+	margin-top: 0px;
+	border:2px solid black;
+	padding: 3px;
+	font-size: 20px;
+	float: right;
+	width: 120px;
+	margin-bottom: 0px;
+}
+div p{
+	padding: 15px;
+	text-align: justify;
+}
+p.h1{
+	background-color: pink;
+
+}
+p.h2{
+	background-color:#520b0b;
+	color: white;
+}
+p.h3{
+	background-color: #a19758;
+
+}
+}
+
